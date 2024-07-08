@@ -1,0 +1,30 @@
+description: Ultralytics best model trained on datasets/deepdrive/config.yaml
+author: Ultralytics
+date: '2024-06-24T17:39:36.406788'
+version: 8.2.33
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Car
+  1: Pedestrian
+  2: Van
+  3: Rider
+  4: Truck
+  5: misc
+  6: Tram
+  7: Person sitting
+  8: bus
+  9: train
+  10: motorcycle
+  11: bicycle
+  12: traffic light
+  13: traffic sign
+  14: stop sign
+  15: speedlimit sign
+  16: crosswalk
